@@ -21,7 +21,7 @@ const photoTrack = document.querySelector("#photo-track");
 if (photoTrack) {
     for (let i = 1; i <= 38; i++) {
         const img = document.createElement("img");
-        img.src = `./images/pic${i}.jpg.jpg`;
+        img.src = `./pic${i}.jpg.jpg`;
         img.alt = "Memory";
         photoTrack.appendChild(img);
     }
